@@ -1,0 +1,66 @@
+/* nav bar div contents start */
+
+.navbar {
+ background-color: white;
+    padding: 0px 50px 0px 40px;
+/*  border: 1px solid black; */
+  display: inline-block;
+  float: right;
+  
+    }
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  padding: 8px ;
+  display:inline-block;
+}
+
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+
+}
+   
+ ul a:hover {
+
+background: lightgray;   
+
+ }
+
+ul li {display: inline-block;}
+ul li:hover {background: lightgray;}
+ul li:hover ul {display: block;}
+
+ul li ul {
+  position: absolute;
+  width: 215px;
+  display: none;
+}
+
+ul li ul li { 
+  background: lightgray; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li a:hover {background: whitesmoke;}
+
+/* nav bar contents end */
+
+/*  background-color: #81c0b4; 
+  color: white; 
+  border: 2px solid #4CAF50; */
+
+.logoimage{
+  height:155px;
+  width: 305px;
+/*  border: 1px solid black; */
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+  transform: translate(55px,15px);
+
+}
