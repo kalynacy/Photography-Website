@@ -1,39 +1,40 @@
-/* nav bar div contents start */
+body {background-color: #fbf3ec ;}
 
+/* nav-bar contents begin */
 .navbar {
- background-color: white;
-  margin: 10px 0px 0px 0px;
-    padding: 0px 50px 0px 40px;
-/*  border: 1px solid black; */
+  background-color: #fbf3ec;
+  padding: 0px 50px 0px 40px;
+  margin: 20px 0px 0px 0px;
+  /*  border: 1px solid black; */
   display: inline-block;
   float: right;
-  
-    }
+}
 
 div a {
   text-decoration: none;
   color: black;
-  font-size: 22px;
+  /*   text-shadow: 2px 2px 2px white; */
+  font-size: 24px;
   padding: 8px ;
+  /*   text-shadow: 2px 2px 4px #000000; */
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  /*    opacity: 0.8; */
   display:inline-block;
 }
-
 
 ul {
   display: inline;
   margin: 0;
   padding: 0;
-
 }
    
  ul a:hover {
-
-background: lightgray;   
-
+  background: white;   
  }
 
 ul li {display: inline-block;}
-ul li:hover {background: lightgray;}
+ul li:hover {background: white;}
 ul li:hover ul {display: block;}
 
 ul li ul {
@@ -43,85 +44,72 @@ ul li ul {
 }
 
 ul li ul li { 
-  background: lightgray; 
+  background: white; 
   display: block; 
 }
+
 ul li ul li a {display:block !important;} 
-ul li ul li a:hover {background: whitesmoke;}
-
-/* nav bar contents end */
-
-/*  background-color: #81c0b4; 
-  color: white; 
-  border: 2px solid #4CAF50; */
+ul li ul li a:hover {background: #ffdac395;}
+/* nav-bar contents end */
 
 .logoimage{
   height:155px;
   width: 305px;
- 
-/*  border: 1px solid black; */
+  /*  border: 1px solid black; */
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 50px;
- float: left;
-  display: inline;
-/*   transform: translate(45px,15px); */
-
-} 
-
-/* .contactdiv{
- border: 1px solid black;
+  margin: 30px 0px 0px 55px;
   float: left;
   display: inline;
-} */
-
+  /*   transform: translate(45px,15px); */
+} 
 
 .contactimage{
   width: 455px;
-   height: 625px;
-/*    border-radius: 25px; */
-/*    box-shadow: 10px 10px 40px #444444; */
-/*     border: 1px solid black; */
+  height: 625px;
   padding: 0px 0px 0px 0px;
-  margin: 170px 0px 0px 0px;
-   float: left;
-  display: inline;
-     transform: translate(-300px,25px);
+  margin: 220px 0px 0px 20px;
+  float: left;
+  display: inline-block;
+  transform: translate(-300px,25px);
 }
 
 .contactimage img{
-border-radius: 15px;
+  border-radius: 15px;
   display: inline-block;
-/*    box-shadow: 10px 10px 30px #444444; */
- width:800px;
+  width:800px;
   height: 640px;
   float: left;
 }
 
 h3{
   text-align: left;
-/*    border: 1px solid black;  */
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 20px 0px;
-
+  font-family:  'Bebas Neue', cursive;
+  letter-spacing: 2px;
 }
+
 .form {
   border-radius: 5px;
-/*   background-color: #f2f2f2; */
-  
-   float: right;
-   width: 450px;
-   height: 620px;
-  margin: 150px 100px 0px 0px;
-  padding:5px;
-  
+  background-color: #fbf3ec;
+  float: right;
+  width: 450px;
+  height: 620px;
+  margin: 175px 95px 0px 0px;
+  padding:5px 5px 5px 30px;
   display: inline-block;
-/*    transform: translate(-100px, -200px); */
-/*     border: 1px solid black; */
-   text-align: left;
+  text-align: left;
 }
+  
+.form body {font-family:  'Bebas Neue', cursive;}
+  * {box-sizing: border-box;
+  font-family:  'Bebas Neue', cursive;
+  font-size: 15px;
+  }
 
-.form body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+.text{
+  /*   font-size: 15px; */
+}
 
 .form input[type=text], select, textarea {
   width: 100%;
@@ -132,12 +120,16 @@ h3{
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  opacity:0.9;
+}
 
+.form input[type=text]:hover{
+  opacity: 0.8;
 }
 
 .form input[type=submit] {
   background-color: black;
-  color: white;
+  color: #fbf3ec;
   padding: 12px 20px;
   border: 1px solid black;
   border-radius: 4px;
@@ -146,37 +138,25 @@ h3{
 }
 
 .form input[type=submit]:hover {
-  background-color: lightgray;
-}
-
-
-
-
-h1{
-/*    border: 1px solid black; */
-display: inline-block;
- color: #444444;
-
- 
+  opacity:0.7;
 }
 
 .space{
-display: inline-block;
+  display: inline-block;
   width:100%;
-  height: 30px;
-/*       border: 1px solid black; */
+  height: 100px;
+  /*  border: 1px solid black; */
 }
 
 .socialfooter {
   position: static;
   margin: 0px 0px 0px 0px;
-  padding: 5px 5px 5px 400px;
+  padding: 0px 0px 0px 0px;
   left: 0;
   bottom: 0;
   width: 100%;
-/*   border: 1px solid black; */
-  height: 5px
+  /*   border: 1px solid black; */
+  height: 10px;
   color: white;
-  text-align:left;
-  
+  text-align: center;
 }

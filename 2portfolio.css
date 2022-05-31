@@ -1,38 +1,40 @@
-/* nav bar div contents start */
+body {background-color: #fbf3ec ;}
 
+/* nav-bar contents */
 .navbar {
- background-color: white;
-    padding: 0px 50px 0px 40px;
-/*  border: 1px solid black; */
+  background-color: #fbf3ec;
+  padding: 0px 50px 0px 40px;
+  margin: 20px 0px 0px 0px;
+  /*   border: 1px solid black;  */
   display: inline-block;
   float: right;
-  
-    }
+}
 
 div a {
   text-decoration: none;
   color: black;
-  font-size: 22px;
+  /*   text-shadow: 2px 2px 2px white; */
+  font-size: 24px;
   padding: 8px ;
+  /*   text-shadow: 2px 2px 4px #000000; */
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  /*    opacity: 0.8; */
   display:inline-block;
 }
-
 
 ul {
   display: inline;
   margin: 0;
   padding: 0;
-
 }
    
- ul a:hover {
-
-background: lightgray;   
-
- }
+ul a:hover {
+  background: white;   
+}
 
 ul li {display: inline-block;}
-ul li:hover {background: lightgray;}
+ul li:hover {background: white;}
 ul li:hover ul {display: block;}
 
 ul li ul {
@@ -42,101 +44,81 @@ ul li ul {
 }
 
 ul li ul li { 
-  background: lightgray; 
+  background: white; 
   display: block; 
 }
+
 ul li ul li a {display:block !important;} 
-ul li ul li a:hover {background: whitesmoke;}
+ul li ul li a:hover {background: #ffdac395;}
+/* nav-bar contents end */
 
-/* nav bar contents end */
-
-/*  background-color: #81c0b4; 
-  color: white; 
-  border: 2px solid #4CAF50; */
-
+/*logo image contents   */
 .logoimage{
   height:155px;
   width: 305px;
-/*  border: 1px solid black; */
+  /*  border: 1px solid black; */
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 10px 0px 15px 0px;
   display: inline-block;
   transform: translate(55px,15px);
-
 }
+/* logo image contents ends  */
 
+/* albums cover contents */
 .outsidediv{
 width: 100%;
   height: auto;
   display: inline-block;
 }
+
 div.gallery {
-  margin: 80px 0px 0px 40px;
+  margin: 40px 0px 0px 40px;
   padding: 0px 0px 0px 0px;
   border: 3px solid black;
+  letter-spacing: 2px;
+  background-color: white;
   float: left;
   width: 45%;
 /*   position: relative; */
   display: inline-block;
 }
-div.gallery: hover {
-  border: 5px solid #777;
+
+div.gallery img {
+  width: 100%; 
+  margin: 4px 0px 0px 0px;
+}
+
+div.gallery:hover {
+/*   border: 5px solid #777; */
   opacity: 0.7;
 }
+
 p1{
   text-align: center;
   background-color: white;
   text-decoration-color: black;
-  font-size: 35px;
-  padding: 5px 10px;
-/*   width: 40%
-  transform: translate(70%, -1300%) */
+  font-size: 45px;
+  letter-spacing: 3px;
+  padding: 20px 20px 10px 20px;
   position: absolute;
-  top: 52%;
+  font-family: 'Bebas Neue', cursive;
+  top: 50%;
   left: 14%;
-/*   transform: translate(-50%, -50%); */
 }
 
 p2{
   text-align: center;
   background-color: white;
   text-decoration-color: black;
-  font-size: 35px;
-  padding: 5px 10px;
-/*   width: 40%
-  transform: translate(70%, -1300%) */
+  font-size: 45px;
+  letter-spacing: 3px;
+  padding: 20px 20px 10px 20px;
   position: absolute;
-  top: 52%;
-  left: 58%;
-/*   transform: translate(-50%, -50%); */
+    font-family: 'Bebas Neue', cursive;
+  top: 50%;
+  left: 59%;
 }
-
-
-
-div.gallery img {
-  width: 100%;
-  
-/*   height: auto; */
-}
-
-/* .phototext{
-  border: 1px black;
-  text:  black;
-  background-color: white;
-  text-align: center;
-  font-size: 18px;
-
-  transform: translate(-50%, -50%);
-} */
-
-/* div.desc {
-  padding: 15px;
-  text-align: center;
-} */
-
-/* div.desc:hover{
-   opacity: 0.7;
-} */
+/* albums cover contents end */
 
 /* footer social contents begins */
 .socialfooter {

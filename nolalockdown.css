@@ -1,16 +1,24 @@
+body {background-color: #fbf3ec ;}
+
+/* nav-bar contents begin */
 .navbar {
-  background-color: white;
+  background-color: #fbf3ec;
   padding: 0px 50px 0px 40px;
-/*  border: 1px solid black; */
+  margin: 20px 0px 0px 0px;
+  opacity: 0.9;
+  /*  border: 1px solid black; */
   display: inline-block;
   float: right;
-    }
+}
 
 div a {
   text-decoration: none;
   color: black;
-  font-size: 22px;
+  font-size: 24px;
   padding: 8px ;
+  /*   text-shadow: 2px 2px 4px #000000; */
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
   display:inline-block;
 }
 
@@ -49,7 +57,7 @@ ul li ul li a:hover {background: whitesmoke;}
   width: 305px;
   /*  border: 1px solid black; */
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 10px 0px 15px 0px;
   display: inline-block;
   transform: translate(55px,15px);
 }
@@ -88,7 +96,6 @@ h1{
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
   -ms-flex: 50%; /* IE 10 */
   flex: 50%;
@@ -100,21 +107,3 @@ h1{
   vertical-align: middle;
 }
 
-/* Style the buttons */
-/* .btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-} */
